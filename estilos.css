@@ -1,0 +1,64 @@
+body{
+    background: #020;
+    font-family: sans-serif;
+}
+
+ form h1{
+    color: #fff;
+    margin-left: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    margin: 12px 10px;
+    background: #0d0;
+    color: #fff;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input:hover{
+    background: #0a0;
+}
+
+input:focus{
+    background: #0a0 ;
+}
+
+input:hover::placeholder{
+    color: #333;
+}
+
+form{
+    width: 90%;
+    margin: 50px auto;
+    background: #7d3;
+    padding: 30px;
+   
+}
+
+input[type="submit"]{
+ width: 60%;
+ margin-left: 20%;
+ margin-top: 18px;
+ background: #060;
+padding: 11px;
+border: none;
+}
+
+input[type="submit"]:hover{
+    background: #040;
+}
+
+.green{
+    color: #020;
+}
+
+.red{
+    color: #f00;
+}
